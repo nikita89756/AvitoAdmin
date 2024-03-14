@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авито</title>
+    <link rel = "stylesheet" type="text/css" href = "/static/avito.css">
+</head>
+<body id = "body" style = "margin: 0px">
+    <div style = "position: sticky; top:0;background-color: #1c1c1c">
+        <p class = "header" style = "margin-left: 10px">Avito</p>
+        <p class = "header" style = "font-size: 1.5vw">Изменение цены</p>
+        <p class = "header" style = "margin-left: 25vw">Админ панель</p>
+    </div>
+    <div>
+        <p class = "labels" style = "margin-left:0.5vw" >Категория</p>
+        <p class = "labels">Локация</p>
+        <p class = "labels">Цена</p>
+    </div>
+    <div id = "inputStrings1" class = "inputStrings">
+        <input id = "mcID1" name = "mcID1" placeholder="CategoryID" class = "inputs" style = "margin-left:0.5vw">
+        <input id = "lcID1" name = "lcID1" placeholder="LocationID" class = "inputs">
+        <input id = "prID1" name = "prID1" placeholder="Price" class = "inputs">
+    </div>
+    <div id = "saveChangesDiv">
+        <button id = "saveChanges">Сохранить</button>
+    </div>
+    <div id = "addStringButtonDiv">
+        <button id = "addString" >Добавить строку</button>
+    </div>
+
+<script src = "/static/avito.js" type="text/js"></script>
+
+</body>
+</html>

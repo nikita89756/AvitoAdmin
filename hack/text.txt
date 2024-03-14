@@ -1,0 +1,11 @@
+	mic, err := strconv.Atoi(r.FormValue("category_id"))
+	loc, err := strconv.Atoi(r.FormValue("category_id"))
+	pr, err := strconv.Atoi(r.FormValue("category_id"))
+	if err != nil {
+		io.WriteString(w, "Неправильные данные")
+	}
+	data := model.Line{
+		MicrocategoryId: mic,
+		LocationId:      loc,
+		Price:           pr,
+	}

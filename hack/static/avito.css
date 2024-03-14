@@ -1,0 +1,39 @@
+*{
+    font-family: Arial ;
+    box-sizing: border-box;
+}
+.header{
+    display: inline-block;
+    font-size: 2vw;
+    color: white;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.labels{
+    display: inline-block;
+    width:15vw;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom:2vw;
+
+}
+.inputs{
+    font-size: 1.5vw;
+    width: 15vw;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+#addString{
+    font-size: 1.3vw;
+}
+#saveChangesDiv{
+    display: inline-block;
+    margin-left: 19.5vw;
+}
+#addStringButtonDiv{
+    display: inline-block;
+    margin-left: 19vw;
+}
+#saveChanges{
+    font-size: 1.3vw;
+}
